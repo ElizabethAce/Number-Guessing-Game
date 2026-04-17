@@ -1,3 +1,6 @@
+## Version 0.0.5 - Updated Header & Added more to conditions block
+- Additions to Header & conditions block
+
 ## Version 0.0.4 - User Input test
 - Run on terminal command: python3 main.py
 - Test passed and input was taken
