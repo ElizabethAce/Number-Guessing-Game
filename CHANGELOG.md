@@ -1,0 +1,14 @@
+## Version 0.0.1 - Planning Stage
+How it's played and what needs to be taken into account:
+- Need to guess a number from 0-10
+- The user is asked for a number as their guess
+    - Ask user for input and check if number matches
+- The program returns feedback if the number was too high or too low
+    - Check conditions
+    - Print statement
+- The user keeps guessing until the answer is correct
+    - Can later also save numbers guessed and have user try again without repeating same guesses
+    - Loop in the same prompt until number is guessed correctly
+- Display a message for when the user wins
+- Display the number of attempts
+    - Variable will store a number of attempts
