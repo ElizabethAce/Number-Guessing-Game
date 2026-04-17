@@ -1,3 +1,11 @@
+## Version 0.0.3 - Print test
+- Run on terminal command: python3 main.py
+- Test passed and printed message
+
+## Version 0.0.2 - Planning Stage on File
+- Created main.py
+- Basic plan layout for program
+
 ## Version 0.0.1 - Planning Stage
 How it's played and what needs to be taken into account:
 - Need to guess a number from 0-10
