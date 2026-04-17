@@ -1,3 +1,7 @@
+## Version 0.0.4 - User Input test
+- Run on terminal command: python3 main.py
+- Test passed and input was taken
+
 ## Version 0.0.3 - Print test
 - Run on terminal command: python3 main.py
 - Test passed and printed message

@@ -12,7 +12,7 @@ def main():
     '''Welcome User'''
     print("Welcome to the Number Guessing Game")
     '''Ask user for input'''
-    # Code here
+    input("What's your guess?: \n")
     '''Check if guess matches correct guess'''
     # Code here
     '''Let user know if their number is too high or too low'''
