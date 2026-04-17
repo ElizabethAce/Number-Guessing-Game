@@ -1,3 +1,12 @@
+## Version 0.0.6 - Demonstrate How Pure Use of If-Blocks are Inefficient for this Game
+- Asks for guess 3 times if your first attempt was high
+- Asks for guess 2 times if your first attempt was low
+- If you start with a high number, try again and guess the correct number, you are told 
+your guess is too high which is incorrect because there's no block for the condition if 
+you got it right the next time.
+- And so on... So we see the issue right?
+- If you guess correctly the first time, you get a success message printed on the terminal screen
+
 ## Version 0.0.5 - Updated Header & Added more to conditions block
 - Additions to Header & conditions block
 
