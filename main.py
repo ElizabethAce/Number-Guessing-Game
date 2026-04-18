@@ -19,46 +19,30 @@ On terminal, type the command:
 
 # GLOBAL VARIABLES
 correct_num = 4
-tries = 0
 
 def main():
     '''Welcome User'''
-    print("Welcome to the Number Guessing Game")
+    print("Welcome to the Number Guessing Game.\nGuess a number from 0-10")
 
     '''Ask user for input'''
     guess = int(input("What's your guess?: \n"))
     
     '''Check if guess matches correct guess'''
         #Let user know if their number is too high or too low
-    if (guess > correct_num):
-        print("You're guess is too high.")
-        input("What's your guess?: \n")
-        ''' Conditions would have to be checked under the same if block again and again until met. 
-        So if the user guesses the same high number or any high number, the program can 
-        eventually end because there was no condition to meet the user's choice. 
-        It ends up becoming repetitive and inefficient'''
-        print(correct_num)
+    tries = 1
+    while (guess!=correct_num):
         if (guess > correct_num):
             print("You're guess is too high.")
-            input("What's your guess?: \n")
+            guess = int(input("What's your guess?: \n"))
 
         elif (guess < correct_num):
             print("You're guess is too low.")
-            input("What's your guess?: \n")
-        elif (guess == correct_num):
-            '''Success/Winner Message'''
-            print("CONGRATULATIONS YOU GUESSED CORRECTLY!\nIt took you", tries, "guesses.\n")
+            guess = int(input("What's your guess?: \n"))
+        tries+=1
 
-    elif (guess < correct_num):
-        print("You're guess is too low.")
-        input("What's your guess?: \n")
+    '''Success/Winner Message'''
+    print("CONGRATULATIONS YOU GUESSED CORRECTLY!\nIt took you", tries, "guess(es).\n")
 
-    elif (guess == correct_num):
-        '''Success/Winner Message'''
-        print("CONGRATULATIONS YOU GUESSED CORRECTLY!\nIt took you", tries, "guesses.\n")
-
-    else:
-        pass
 
 if __name__ == "__main__":
     main()

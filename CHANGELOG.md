@@ -1,3 +1,7 @@
+## Version 0.1.0 - Working Version of Guessing Game
+- Used a while loop to keep prompting until correct number is guessed.
+- Had to update guess inside loop
+
 ## Version 0.0.6 - Demonstrate How Pure Use of If-Blocks are Inefficient for this Game
 - Asks for guess 3 times if your first attempt was high
 - Asks for guess 2 times if your first attempt was low
