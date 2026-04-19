@@ -1,3 +1,6 @@
+## Version 0.1.1 - Modified success print statement
+- Added if conditions to check how many tries it took to get the correct guess in order to print singular/plural.
+
 ## Version 0.1.0 - Working Version of Guessing Game
 - Used a while loop to keep prompting until correct number is guessed.
 - Had to update guess inside loop

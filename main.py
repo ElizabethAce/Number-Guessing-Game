@@ -41,7 +41,10 @@ def main():
         tries+=1
 
     '''Success/Winner Message'''
-    print("CONGRATULATIONS YOU GUESSED CORRECTLY!\nIt took you", tries, "guess(es).\n")
+    if (tries > 1):
+        print("\nCONGRATULATIONS, YOU GUESSED CORRECTLY!\nIt took you", tries, "guesses.\n")
+    else:
+        print("\nCONGRATULATIONS, YOU GUESSED CORRECTLY!\nIt took you", tries, "guess.\n")
 
 
 if __name__ == "__main__":
