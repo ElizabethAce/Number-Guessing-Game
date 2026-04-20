@@ -1,3 +1,7 @@
+## Version 0.2.0 - Randomly Generated Number
+- Imported library: Random Library
+- Modified program to generate random number every time it is run
+
 ## Version 0.1.1 - Modified success print statement
 - Added if conditions to check how many tries it took to get the correct guess in order to print singular/plural.
 

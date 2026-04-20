@@ -16,9 +16,11 @@ On terminal, type the command:
 
 '''
 #############################################################
+# IMPORTS
+import random
 
 # GLOBAL VARIABLES
-correct_num = 4
+correct_num = random.randint(0, 10)
 
 def main():
     '''Welcome User'''
