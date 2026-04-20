@@ -4,12 +4,13 @@
 
 ## 🌟 Highlights
 
-- Covers foundational topics for beginners: functions, variables, print and conditional statements, loops, comments, testing, and debugging.
+- Randomly generates number being guessed
+- Covers foundational topics for beginners: functions, variables, print and conditional statements, loops, imported libraries, comments, testing, and debugging.
 - Program gives the user hints (if guess is too low or too high).
 
 ## ℹ️ Overview
 
-The purpose of this game is to create a program that covers some foundational topics to instruct someone learning Python for the first time. The game is also a demonstration of a fun game you can play with just a few lines of code. This program is perfect to aid a beginner in understading Python basics and transforming it into a fun game that can be modified into so many ways depending on the features you want to add.
+The purpose of this game is to create a program that covers some foundational topics to instruct someone learning Python for the first time. This program was created with how it can Python concepts can be instructed and modified depending on the features you want to add.
 
 ## 🚀 Usage & Example Output
 The following image is a case test in which a user can go about playing the game.

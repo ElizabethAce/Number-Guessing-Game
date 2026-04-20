@@ -1,3 +1,5 @@
+## Version 0.2.1 - Few Readme modifications to spec
+
 ## Version 0.2.0 - Randomly Generated Number
 - Imported library: Random Library
 - Modified program to generate random number every time it is run
